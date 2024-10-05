@@ -16,12 +16,12 @@ pip install basic_package
 ## Usage
 
 ```python
-from basic_package import random_number
-random_number.random_number()
+from basic_package import Random_number
+Random_number.random_number()
 ```
 
 ## Author
 GustavoRaia
 
 ## License
-[MIT](https://choosealicense.com/licenses/mit/)
+N/A
