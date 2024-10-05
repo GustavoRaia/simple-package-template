@@ -7,14 +7,14 @@ with open("requirements.txt") as f:
     requirements = f.read().splitlines()
 
 setup(
-    name="package_name",
+    name="basic_package",
     version="0.0.1",
-    author="my_name",
+    author="GustavoRaia",
     author_email="my_email",
-    description="My short description",
+    description="Basic package to demonstrate packaging in Python",
     long_description=page_description,
     long_description_content_type="text/markdown",
-    url="my_github_repository_project_link"
+    url="https://github.com/GustavoRaia/simple-package-template",
     packages=find_packages(),
     install_requires=requirements,
     python_requires='>=3.8',

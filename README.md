@@ -7,21 +7,21 @@ The package package_name is used to:
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install package_name
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install basic_package
 
 ```bash
-pip install package_name
+pip install basic_package
 ```
 
 ## Usage
 
 ```python
-from package_name import file1_name
-file1_name.my_function()
+from basic_package import random_number
+random_number.random_number()
 ```
 
 ## Author
-My_name
+GustavoRaia
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
